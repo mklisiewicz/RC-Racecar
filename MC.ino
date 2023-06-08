@@ -8,7 +8,6 @@ int pot;
 void setup() {
   Serial.begin(9600);
   pinMode(POT, INPUT);
-  pinMode(ENABLE, INPUT);
 
   //Set PWM frequency to 61Hz for pins D9 D10 D5 D6
   TCCR1A = 0b00000001;  
